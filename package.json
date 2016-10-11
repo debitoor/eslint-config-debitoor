@@ -1,6 +1,5 @@
 {
   "name": "@debitoor/eslint-config-debitoor",
-  "private": true,
   "version": "1.0.0",
   "description": "Defines global linting rules for all debitoor projects",
   "main": "index.js",
@@ -12,7 +11,7 @@
     "url": "git+https://github.com/debitoor/eslint-config-debitoor.git"
   },
   "author": "Debitoor",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/debitoor/eslint-config-debitoor/issues"
   },
