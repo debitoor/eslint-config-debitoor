@@ -36,5 +36,12 @@ module.exports = {
 		'no-undef': 2,
 		'no-unused-vars': [2, { 'vars': 'local', 'args': 'none' }],
 		'no-use-before-define': 0
+	},
+	'env': {
+		'node': true
+	},
+	'parserOptions': {
+		'ecmaVersion': 6,
+		'sourceType': 'module'
 	}
 };
