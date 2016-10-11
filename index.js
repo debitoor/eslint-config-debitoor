@@ -11,8 +11,6 @@ module.exports = {
 		'object-shorthand': 0,
 		'one-var': 0,
 		'quotes': [2, 'single'],
-		'react/jsx-uses-react': 1,
-		'react/jsx-uses-vars': 1,
 		'semi': [2, 'always'],
 		'strict': [2, 'never'],
 		'wrap-iife': 0,
