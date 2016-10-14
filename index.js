@@ -36,7 +36,8 @@ module.exports = {
 		'no-use-before-define': 0
 	},
 	'env': {
-		'node': true
+		'node': true,
+		'es6': true
 	},
 	'parserOptions': {
 		'ecmaVersion': 6,
