@@ -13,5 +13,13 @@ Add a ``.eslintrc.js`` file in the root of your project and extended it with the
 ```js
 module.exports = {
   'extends': '@debitoor/eslint-config-debitoor'
-}
+};
+```
+
+If you are using babel, you need to add `'parser': 'babel-eslint'` to `.eslintrc.js`:
+```js
+module.exports = {
+  extends: '@debitoor/eslint-config-debitoor',
+  parser: 'babel-eslint'
+};
 ```
