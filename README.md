@@ -23,3 +23,23 @@ module.exports = {
   parser: 'babel-eslint'
 };
 ```
+
+### Add tests
+
+Install mocha-eslint:
+
+``` bash
+npm install -D mocha-eslint
+```
+
+and add a spec file `eslint.spec.js` in your test folder where you indicate which folders should be checked for linting:
+
+```js
+require('mocha-eslint')([
+	'*.js',
+	'config',
+	'source',
+	'test'
+]);
+```
+
