@@ -8,7 +8,7 @@ module.exports = {
 		'eqeqeq': [2, 'always', {'null': 'ignore'}],
 		'handle-callback-err': 0,
 		'key-spacing': [2, { "mode": "strict" }],
-		'indent': [2, 'tab'],
+		'indent': [2, 'tab', {'SwitchCase': 1}],
 		'object-shorthand': 0,
 		'one-var': 0,
 		'quotes': [2, 'single'],
