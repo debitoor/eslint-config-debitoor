@@ -34,7 +34,8 @@ module.exports = {
 		'no-underscore-dangle': 0,
 		'no-undef': 2,
 		'no-unused-vars': [2, { 'vars': 'local', 'args': 'none' }],
-		'no-use-before-define': 0
+		'no-use-before-define': 0,
+		'no-unreachable': 2
 	},
 	'env': {
 		'node': true,
