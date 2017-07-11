@@ -30,7 +30,7 @@ module.exports = {
 		'no-process-exit': 0,
 		'no-redeclare': 2,
 		'no-shadow': 0,
-		'no-trailing-spaces':  [2, { 'skipBlankLines': true }],
+		'no-trailing-spaces':  [2, { 'skipBlankLines': false }],
 		'no-underscore-dangle': 0,
 		'no-undef': 2,
 		'no-unused-vars': [2, { 'vars': 'local', 'args': 'none' }],
