@@ -9,8 +9,6 @@ module.exports = {
 		'handle-callback-err': 0,
 		'key-spacing': [2, { 'mode': 'strict' }],
 		'indent': [2, 'tab', {'SwitchCase': 1}],
-		'no-mixed-spaces-and-tabs': 2,
-		'comma-spacing': ['error', {'before': false, 'after': true }],
 		'object-shorthand': 0,
 		'one-var': 0,
 		'quotes': [2, 'single'],
@@ -44,7 +42,7 @@ module.exports = {
 		'es6': true
 	},
 	'parserOptions': {
-		'ecmaVersion': 6,
+		'ecmaVersion': 2017,
 		'sourceType': 'module'
 	}
 };
