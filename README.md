@@ -5,10 +5,15 @@ Defines global linting rules for all debitoor projects
 ## Usage
 
 ``` bash
-npm install -DE @debitoor/eslint-config-debitoor
+npm i -DE @debitoor/eslint-config-debitoor
+npm i -DE mocha-eslint 
+echo "require('mocha-eslint')(['.']);" > test/eslint.spec.js
+echo "module.exports = {'extends': '@debitoor/eslint-config-debitoor'};" > .eslintrc.js
+git add test/eslint.spec.js .eslintrc.js
 ```
 
-Add a ``.eslintrc.js`` file in the root of your project and extended it with the default config:
+
+or add a ``.eslintrc.js`` file in the root of your project and extended it with the default config:
 
 ```js
 module.exports = {
