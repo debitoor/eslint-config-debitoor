@@ -1,6 +1,7 @@
 # eslint-config-debitoor
 
-[![npm version](https://badge.fury.io/js/%40debitoor%2Feslint-config-debitoor.svg)](https://badge.fury.io/js/%40debitoor%2Feslint-config-debitoor)[![Build Status](https://travis-ci.org/debitoor/eslint-config-debitoor.svg?branch=master)](https://travis-ci.org/debitoor/eslint-config-debitoor)
+[![npm version](https://badge.fury.io/js/%40debitoor%2Feslint-config-debitoor.svg)](https://badge.fury.io/js/%40debitoor%2Feslint-config-debitoor)
+[![Build Status](https://travis-ci.org/debitoor/eslint-config-debitoor.svg?branch=master)](https://travis-ci.org/debitoor/eslint-config-debitoor)
 
 Defines global linting rules for all debitoor projects
 
