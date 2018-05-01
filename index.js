@@ -8,6 +8,7 @@ module.exports = {
 		'eqeqeq': [2, 'always', {'null': 'ignore'}],
 		'handle-callback-err': 0,
 		'key-spacing': [2, { 'mode': 'strict' }],
+		'keyword-spacing': 2,
 		'indent': [2, 'tab', {'SwitchCase': 1}],
 		'no-mixed-spaces-and-tabs': 2,
 		'comma-spacing': ['error', {'before': false, 'after': true }],

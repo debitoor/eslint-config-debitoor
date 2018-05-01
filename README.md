@@ -8,8 +8,7 @@ Defines global linting rules for all debitoor projects
 ## Usage
 
 ``` bash
-npm i -DE @debitoor/eslint-config-debitoor
-npm i -DE mocha-eslint 
+npm i -DE mocha-eslint  @debitoor/eslint-config-debitoor
 echo "require('mocha-eslint')(['.']);" > test/eslint.spec.js
 echo "module.exports = {'extends': '@debitoor/eslint-config-debitoor'};" > .eslintrc.js
 git add test/eslint.spec.js .eslintrc.js
