@@ -24,6 +24,7 @@ module.exports = {
 		'no-caller': 2,
 		'no-bitwise': 2,
 		'no-debugger': 2,
+		'no-dupe-keys': 2,
 		'no-empty': 2,
 		'no-eval': 2,
 		'no-extra-semi': 2,
