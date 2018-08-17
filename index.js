@@ -1,5 +1,6 @@
 module.exports = {
 	rules: {
+		'arrow-spacing': 2,
 		'camelcase': 0,
 		'consistent-return': 0,
 		'curly': [2, 'all'],
@@ -40,7 +41,9 @@ module.exports = {
 		'no-undef': 2,
 		'no-unused-vars': [2, { 'vars': 'local', 'args': 'none' }],
 		'no-use-before-define': 0,
-		'no-unreachable': 2
+		'no-unreachable': 2,
+		'space-before-function-paren': 2,
+		'space-infix-ops': 2
 	},
 	'env': {
 		'node': true,
