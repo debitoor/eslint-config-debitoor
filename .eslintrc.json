@@ -28,7 +28,7 @@
 			"error",
 			"tab",
 			{
-				"SwitchCase": "warn"
+				"SwitchCase": 1
 			}
 		],
 		"no-mixed-spaces-and-tabs": "error",
