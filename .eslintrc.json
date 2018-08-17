@@ -1,0 +1,120 @@
+{
+	"rules": {
+		"arrow-spacing": "error",
+		"camelcase": "off",
+		"consistent-return": "off",
+		"curly": [
+			"error",
+			"all"
+		],
+		"dot-notation": "off",
+		"eol-last": "off",
+		"eqeqeq": [
+			"error",
+			"always",
+			{
+				"null": "ignore"
+			}
+		],
+		"handle-callback-err": "off",
+		"key-spacing": [
+			"error",
+			{
+				"mode": "strict"
+			}
+		],
+		"keyword-spacing": "error",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"no-mixed-spaces-and-tabs": "error",
+		"comma-spacing": [
+			"error",
+			{
+				"before": false,
+				"after": true
+			}
+		],
+		"object-curly-spacing": [
+			"error",
+			"always"
+		],
+		"object-shorthand": "off",
+		"one-var": "off",
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"strict": [
+			"error",
+			"never"
+		],
+		"wrap-iife": "off",
+		"new-cap": [
+			"error",
+			{
+				"capIsNew": false
+			}
+		],
+		"no-alert": "off",
+		"no-caller": "error",
+		"no-bitwise": "error",
+		"no-debugger": "error",
+		"no-dupe-keys": "error",
+		"no-empty": "error",
+		"no-eval": "error",
+		"no-extra-semi": "error",
+		"no-irregular-whitespace": "off",
+		"no-multi-spaces": "off",
+		"no-new": "error",
+		"no-plusplus": "off",
+		"no-process-exit": "off",
+		"no-redeclare": "error",
+		"no-shadow": "off",
+		"no-trailing-spaces": [
+			"error",
+			{
+				"skipBlankLines": false
+			}
+		],
+		"no-underscore-dangle": "off",
+		"no-undef": "error",
+		"no-unused-vars": [
+			"error",
+			{
+				"vars": "local",
+				"args": "none"
+			}
+		],
+		"no-use-before-define": "off",
+		"no-unreachable": "error",
+		"space-before-function-paren": [
+			"error",
+			{
+				"anonymous": "never",
+				"named": "never",
+				"asyncArrow": "always"
+			}
+		],
+		"space-infix-ops": "error"
+	},
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2017,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true
+		}
+	}
+}

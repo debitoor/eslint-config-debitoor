@@ -2,7 +2,7 @@
   "name": "@debitoor/eslint-config-debitoor",
   "version": "2.4.0",
   "description": "Defines global linting rules for all debitoor projects",
-  "main": "index.js",
+  "main": ".eslintrc.json",
   "scripts": {
     "test": "mocha",
     "preversion": "npm test",
@@ -15,7 +15,7 @@
   "author": "Debitoor",
   "license": "ISC",
   "files": [
-    "index.js"
+    ".eslintrc.json"
   ],
   "bugs": {
     "url": "https://github.com/debitoor/eslint-config-debitoor/issues"
