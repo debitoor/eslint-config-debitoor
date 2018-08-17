@@ -42,7 +42,7 @@ module.exports = {
 		'no-unused-vars': [2, { 'vars': 'local', 'args': 'none' }],
 		'no-use-before-define': 0,
 		'no-unreachable': 2,
-		'space-before-function-paren': 2,
+		'space-before-function-paren': [2, { 'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always'}],
 		'space-infix-ops': 2
 	},
 	'env': {
