@@ -23,6 +23,6 @@
   "homepage": "https://github.com/debitoor/eslint-config-debitoor#readme",
   "devDependencies": {
     "mocha": "5.2.0",
-    "mocha-eslint": "4.1.0"
+    "mocha-eslint": "5.0.0"
   }
 }
