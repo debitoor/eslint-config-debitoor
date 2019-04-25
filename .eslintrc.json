@@ -94,6 +94,7 @@
 				"args": "none"
 			}
 		],
+		"no-const-assign": "error",
 		"no-use-before-define": "off",
 		"no-unreachable": "error",
 		"space-before-function-paren": [
