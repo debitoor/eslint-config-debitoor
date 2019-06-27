@@ -1,6 +1,6 @@
 {
   "name": "@debitoor/eslint-config-debitoor",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Defines global linting rules for all debitoor projects",
   "main": ".eslintrc.json",
   "scripts": {
