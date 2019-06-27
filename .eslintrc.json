@@ -7,6 +7,11 @@
 			"error",
 			"all"
 		],
+		"no-underscore-dangle": [
+			"error", {
+				"allowAfterThis": true
+			}
+		],
 		"dot-notation": "off",
 		"eol-last": "off",
 		"eqeqeq": [
