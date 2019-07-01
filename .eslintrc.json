@@ -1,16 +1,22 @@
 {
+	"extends": "airbnb-base",
 	"rules": {
 		"arrow-spacing": "error",
+		"no-use-before-define": ["error", { "functions": false, "classes": true }],
+		"no-underscore-dangle": ["error", { "allowAfterThis": true, "allow": [
+			"_id",
+			"_deleted",
+			"_tenant",
+			"_ga"
+		] }],
+		"one-var-declaration-per-line": ["error", "initializations"],
 		"camelcase": "off",
 		"consistent-return": "off",
+		"no-tabs": "off",
+		"no-useless-escape": "warn",
 		"curly": [
 			"error",
 			"all"
-		],
-		"no-underscore-dangle": [
-			"error", {
-				"allowAfterThis": true
-			}
 		],
 		"dot-notation": "off",
 		"eol-last": "off",
@@ -22,6 +28,11 @@
 			}
 		],
 		"handle-callback-err": "off",
+		"max-len": ["error", {
+			"code": 140,
+			"ignoreStrings": true,
+			"ignoreComments": true
+		}],
 		"key-spacing": [
 			"error",
 			{
@@ -29,6 +40,8 @@
 			}
 		],
 		"keyword-spacing": "error",
+		"no-param-reassign": "warn",
+		"global-require": "warn",
 		"indent": [
 			"error",
 			"tab",
@@ -90,7 +103,6 @@
 				"skipBlankLines": false
 			}
 		],
-		"no-underscore-dangle": "off",
 		"no-undef": "error",
 		"no-unused-vars": [
 			"error",
@@ -100,7 +112,6 @@
 			}
 		],
 		"no-const-assign": "error",
-		"no-use-before-define": "off",
 		"no-unreachable": "error",
 		"space-before-function-paren": [
 			"error",

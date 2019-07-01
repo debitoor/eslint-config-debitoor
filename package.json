@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/debitoor/eslint-config-debitoor#readme",
   "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
     "mocha": "5.2.0",
     "mocha-eslint": "5.0.0"
   }
