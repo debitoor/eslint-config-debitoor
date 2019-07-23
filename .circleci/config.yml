@@ -11,6 +11,9 @@ jobs:
           name: Create NPMRC
           command: echo $NPMRC > ~/repo/.npmrc
       - run:
+          name: update npm
+          command: sudo npm i npm@6.8.0 -g
+      - run:
           name: NPM Install
           command: npm install
       - run:
