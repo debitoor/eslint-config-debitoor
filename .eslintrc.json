@@ -1,4 +1,7 @@
 {
+	"plugins": [
+		"no-only-tests"
+	],
 	"rules": {
 		"arrow-spacing": "error",
 		"camelcase": "off",
@@ -114,5 +117,6 @@
 	"parserOptions": {
 		"ecmaVersion": 2018,
 		"sourceType": "module"
-	}
+	},
+	"no-only-tests/no-only-tests": "error"
 }
