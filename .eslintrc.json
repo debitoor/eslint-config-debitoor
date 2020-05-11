@@ -1,4 +1,7 @@
 {
+	"plugins": [
+		"no-only-tests"
+	],
 	"rules": {
 		"arrow-spacing": "error",
 		"camelcase": "off",
@@ -105,7 +108,8 @@
 				"asyncArrow": "always"
 			}
 		],
-		"space-infix-ops": "error"
+		"space-infix-ops": "error",
+		"no-only-tests/no-only-tests": "error"
 	},
 	"env": {
 		"node": true,
