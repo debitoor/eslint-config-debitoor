@@ -17,6 +17,15 @@ jobs:
           name: NPM Install
           command: npm install
       - run:
+          name: Git user identification
+          command: git config user.email "circleci@debitoor.com" && git config user.name "Circle Ci"
+      - run:
+          name: Checkout package.json
+          command: git checkout package.json
+      - run:
+          name: Git push
+          command: var=$(git status | grep package-lock.json | wc -l) && [ ! -z $var ] && git add package-lock.json && git commit -m "update pkg lock" && git push origin $CIRCLE_BRANCH || git status
+      - run:
           name: NPM Test
           command: npm test
 workflows:
