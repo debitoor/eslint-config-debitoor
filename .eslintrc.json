@@ -1,6 +1,7 @@
 {
 	"plugins": [
-		"no-only-tests"
+		"no-only-tests",
+		"import"
 	],
 	"rules": {
 		"arrow-spacing": "error",
@@ -109,7 +110,15 @@
 			}
 		],
 		"space-infix-ops": "error",
-		"no-only-tests/no-only-tests": "error"
+		"no-only-tests/no-only-tests": "error",
+		"import/first": "error",
+		"import/named": "error",
+		"import/namespace": "error",
+		"import/default": "error",
+		"import/export": "error",
+		"import/order": "error",
+		"import/no-duplicates": "error",
+		"import/newline-after-import": "error"
 	},
 	"env": {
 		"node": true,
