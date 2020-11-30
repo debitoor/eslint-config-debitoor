@@ -110,7 +110,7 @@
 			}
 		],
 		"space-infix-ops": "error",
-		"no-only-tests/no-only-tests": "error",
+		"no-only-tests/no-only-tests": "warn",
 		"import/first": "warn",
 		"import/named": "warn",
 		"import/namespace": "warn",
