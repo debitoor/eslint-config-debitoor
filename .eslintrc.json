@@ -111,14 +111,14 @@
 		],
 		"space-infix-ops": "error",
 		"no-only-tests/no-only-tests": "error",
-		"import/first": "error",
-		"import/named": "error",
-		"import/namespace": "error",
-		"import/default": "error",
-		"import/export": "error",
-		"import/order": "error",
-		"import/no-duplicates": "error",
-		"import/newline-after-import": "error"
+		"import/first": "warn",
+		"import/named": "warn",
+		"import/namespace": "warn",
+		"import/default": "warn",
+		"import/export": "warn",
+		"import/order": "warn",
+		"import/no-duplicates": "warn",
+		"import/newline-after-import": "warn"
 	},
 	"env": {
 		"node": true,
